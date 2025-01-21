@@ -2,7 +2,14 @@ ThisBuild / organization := "io.github.mikla"
 ThisBuild / organizationName := "Han van Venrooij"
 ThisBuild / organizationHomepage := None
 
-ThisBuild / developers := List()
+ThisBuild / developers := List(
+  Developer(
+    id = "irundaia",
+    name = "Han van Venrooij",
+    email = "your@email",
+    url = url("http://your.url")
+  )
+)
 
 ThisBuild / scmInfo := Some(
   ScmInfo(
