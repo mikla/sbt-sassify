@@ -1,6 +1,8 @@
 ThisBuild / organization := "io.github.mikla"
-organizationName := "Han van Venrooij"
+ThisBuild / organizationName := "Han van Venrooij"
 ThisBuild / organizationHomepage := None
+
+ThisBuild / developers := List()
 
 ThisBuild / scmInfo := Some(
   ScmInfo(
